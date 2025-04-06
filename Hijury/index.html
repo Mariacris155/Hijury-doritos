@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hi Jury | Doritos</title>
+	<meta name="viewport" content="width=1224px; user-scalable=0;">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/comun.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<header>
+    	<div class="headertop">
+            <img alt="Doritos" src="images/logo.png" class="milogo">
+            <div class="descripcion">
+                <h5 style="text-align: left;">Doritos ha querido ser siempre el snack perfecto para los gamers, pero su crujido característico puede llegar a ser muy molesto en las partidas online. <br><br>
+				De esta forma surge Crunch Cancellation, un software que permite que los gamers puedan hablar por el micrófono mientras comen, sin que se escuche ni el más mínimo crujido. A través de inteligencia artificial, desarrollada en base a una biblioteca de NVIDIA, es capaz de detectar la onda de sonido que crean los crujidos al masticar, y eliminarlos en tiempo real. 
+ </h5>
+            </div>
+        </div>
+        <nav>
+        	<ul>
+            	
+				<li><a href="#casestudy" target="_self">CASE STUDY</a></li>
+				<li><a href="#pstalents" target="_self">LA TECNOLOGÍA</a></li>
+				
+            </ul>
+        </nav>
+    </header>
+    <section id="case">
+	
+		<div class="container" id="casestudy">
+        <article class="cuadricula">
+			<div class="ancho100"></div>
+        	<div class="item imagen">
+            	<img alt="case" src="images/cuadro1.jpg">
+            </div>
+            <div class="item texto">
+            	<div class="centrador">
+					<h3>Case study</h3>
+                    <p>Conoce todo sobre la campaña</p>
+					<img alt="play" src="images/playbutton.png" onClick="mostrarVideo('1');" class="playbtn" >
+                </div>
+            </div>
+			<div class="ancho100"></div>
+			</article>
+			</div>
+		<div class="container desktop" id="pstalents">
+    	<article class="cuadricula">
+        	<div class="ancho100"></div>
+            <div class="item texto">
+            	<div class="centrador"  >
+					<h3>La tecnología</h3>
+                    <p>Es un software 100% real. Si tienes
+una tarjeta gráfica Nvidia RTX serie 2 ó 3
+descárgalo para probar su eficacia</p>
+					<a href="DoritosCrunchCancellation.zip" target="_blank"><img alt="download" src="images/download.png"  class="playbtn2"></a>
+                </div>
+            </div>
+			<div class="item imagen" id="cargaimagen">
+            	<img alt="tecnología" src="images/cuadro2.jpg">
+            </div>
+			<div class="ancho100"></div>
+        </article>
+        </div>
+		<div class="container mobile">
+    	<article class="cuadricula">
+        	<div class="ancho100"></div>
+           
+			<div class="item imagen" >
+            	<img alt="tecnología" src="images/cuadro2.jpg">
+            </div>
+			 <div class="item texto">
+            	<div class="centrador"  >
+					<h3>La tecnología</h3>
+                    <p>Es un software 100% real. Si tienes
+una tarjeta gráfica Nvidia RTX serie 2 ó 3
+descárgalo para probar su eficacia</p>
+					<a href="DoritosCrunchCancellation.zip" target="_blank"><img alt="download" src="images/download.png"  class="playbtn2"></a>
+                </div>
+            </div>
+			<div class="ancho100"></div>
+        </article>
+        </div>
+    	 
+    </section>
+</div>
+	
+<div id="ventanaFlotante" style="display: none;">
+	<div id="cerrar" onClick="CerrarVentana();">X</div>
+	<div id="mivideo"></div>	
+</div>
+</body>
+</html>
